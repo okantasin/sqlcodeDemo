@@ -69,10 +69,12 @@ where product_id = 200
 
 
 # IN
+ ``` sql
 SELECT * FROM PRODUCTS WHERE NAME IN('Tulpar')
 FROM table_name
 WHERE column_name IN (value1, value2, ...);
-
+ ```
+ 
 # UPDATE
 - 200 numaralı ürünün stok ve birim fiyatını güncellemek.
 
